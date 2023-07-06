@@ -1,0 +1,201 @@
+/* 
+  #------------------------------------#
+  # ESTILOS.CSS                        #
+  # Por: Bruno Vieira e João Vitorino  #
+  #------------------------------------#
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Categories */
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    background-color: #fff;
+    padding: 20px;
+}
+
+section h1{
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: #DEEAEF;
+}
+
+section:nth-child(4){
+    background-image: linear-gradient(to top, black, #DEEAEF);
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Header things */
+
+header {
+    background-color: #024959;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    width: 1200px;
+}
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+header li {
+    list-style: none;
+}
+
+
+
+header li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+header li a:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    text-shadow: 0px 0px 1px black;
+    color: black;
+}
+
+
+img {
+    width: 300px;
+    margin: 0px 50px;
+    box-shadow: 1px 1px 3px black;
+}
+
+p{
+    text-align: justify;
+}
+
+header .container {
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.conversor .container > div {
+    color: white;
+    text-shadow: 1px 1px 3px gray;
+}
+
+.conversor .container > div h1{
+    font-size: 35px;
+}
+
+.conversor .container > div p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.conversor .container div{
+    text-align: center;
+    width: 50%;
+    margin: 10px;
+}
+
+.formulario {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario button{
+    margin: 0px 0px 0px 40px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.formulario button:hover{
+    background-color: #024959;
+    color: white;
+    box-shadow: 1px 1px 3px #fff;
+}
+
+.formulario input{
+    display: block;
+    padding: 20px;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #fff;
+}
+
+.formulario div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* footer things*/
+
+footer {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+footer p {
+    color: #fff;
+}
