@@ -12,90 +12,111 @@
 
 <body>
     <header>
-        <div class="container">
-            <h1>Rumo ao Hexa-bi-decimal</h1>
-            <nav>
-                <ul>
-                    <li><a href="#dec">Decimal</a></li>
-                    <li><a href="#bi">Binário</a></li>
-                    <li><a href="#hexa">Hexadecimal</a></li>
-                    <li><a href="#conv">Conversor</a></li>
-                </ul>
-            </nav>
-        </div>
-        
+        <h1>ProjetRumo ao Hexa-Bi-Decimal</h1>
+        <nav>
+            <p>Explore neste site:</p>
+            <ul>
+                <li><a href="#dec">Numeração Decimal</a></li>
+                <li><a href="#bi">Numeração Binária</a></li>
+                <li><a href="#hexa">Numeração Hexadecimal</a></li>
+                <li><a href="#conv">Conversor online</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
-        <section id="dec" class="decimal">
-        <h1>Numeração Decimal</h1>
+
+        <section id="dec">
+            <h1>Numeração Decimal</h1>
             <div class="container">
-                
-                <img src="img/decimal.png" alt="">
+                <img src="img/decimal.png" alt="Decimal">
                 <div>
-                    <p>Um número decimal é uma representação numérica baseada em 10 dígitos, que vão de 0 a 9. Cada dígito tem um valor posicional, sendo que a posição mais à direita representa as unidades, a segunda posição representa as dezenas, a terceira representa as centenas, e assim por diante. Cada posição é multiplicada pela potência de 10 correspondente. Os números decimais são amplamente utilizados no nosso cotidiano para contar, medir e expressar quantidades. Eles são intuitivos devido à nossa familiaridade com a contagem em grupos de 10. Por exemplo, o número 348 pode ser expresso como: 3 * 10^2 + 4 * 10^1 + 8 * 10^0.</p>
+                    <p>
+                        Um número decimal é uma representação numérica baseada em 10 dígitos, que vão de 0 a 9. Cada
+                        dígito tem um valor posicional, sendo que a posição mais à direita representa as unidades, a
+                        segunda posição representa as dezenas, a terceira representa as centenas, e assim por diante.
+                    </p>
+                    <p>
+                        Cada posição é multiplicada pela potência de 10 correspondente. Os números decimais são
+                        amplamente utilizados no nosso cotidiano para contar, medir e expressar quantidades. Eles são
+                        intuitivos devido à nossa familiaridade com a contagem em grupos de 10. Por exemplo, o número
+                        348 pode ser expresso como: 3 * 10^2 + 4 * 10^1 + 8 * 10^0.
+                    </p>
                 </div>
-                
+
             </div>
         </section>
 
-        <section id="bi" class="binario">
+        <section id="bi">
             <h1>Numeração Binária</h1>
-            <div class="container">
-                <img src="img/binario.jpg" alt="">
+            <div class="container reverse">
+                <img src="img/binario.jpg" alt="Binário">
                 <div>
-                    <p>O sistema binário é uma forma de representação numérica que utiliza apenas dois dígitos: 0 e 1. É amplamente utilizado em computadores e sistemas eletrônicos devido à sua compatibilidade com o funcionamento desses dispositivos. No sistema binário, cada dígito representa uma potência de 2, e os números são calculados somando as potências correspondentes aos dígitos "ligados" (1) e ignorando os dígitos "desligados" (0). Essa representação é fundamental para o armazenamento e processamento de informações em formato digital.</p>
+                    <p>O sistema binário é uma forma de representação numérica que utiliza apenas dois dígitos: 0 e 1. É
+                        amplamente utilizado em computadores e sistemas eletrônicos devido à sua compatibilidade com o
+                        funcionamento desses dispositivos.</p>
+                    <p>No sistema binário, cada dígito representa uma potência de 2,
+                        e os números são calculados somando as potências correspondentes aos dígitos "ligados" (1) e
+                        ignorando os dígitos "desligados" (0). Essa representação é fundamental para o armazenamento e
+                        processamento de informações em formato digital.</p>
                 </div>
             </div>
 
-            
+
         </section>
 
-        <section id="hexa" class="hexadecimal">
+        <section id="hexa">
             <h1>Numeração Hexadecimal</h1>
             <div class="container">
-                <img src="img/hexadecimal.jpg" alt="">
-            <div>
-                <p>O sistema hexadecimal é um sistema de numeração que utiliza 16 símbolos entre números e letras para representar números. Ele é amplamente utilizado na informática devido à relação com o byte, que representa 256 valores possíveis. Essa quantidade pode ser expressa como 16^2, onde cada dígito hexadecimal corresponde a um byte. A conversão entre binário e hexadecimal é simples, tornando o sistema útil para representar números binários de forma compacta. O sistema hexadecimal é frequentemente utilizado em programação, impressão e displays de computadores e microprocessadores.</p>
+                <img src="img/hexadecimal.jpg" alt="Hexadecimal">
+                <div>
+                    <p>O sistema hexadecimal é um sistema de numeração que utiliza 16 símbolos entre números e letras
+                        para representar números. Ele é amplamente utilizado na informática devido à relação com o byte,
+                        que representa 256 valores possíveis. Essa quantidade pode ser expressa como 16^2, onde cada
+                        dígito hexadecimal corresponde a um byte.</p>
+                    <p>A conversão entre binário e hexadecimal é simples,
+                        tornando o sistema útil para representar números binários de forma compacta. O sistema
+                        hexadecimal é frequentemente utilizado em programação, impressão e displays de computadores e
+                        microprocessadores.</p>
+                </div>
             </div>
-            </div>
-            
         </section>
 
         <section class="conversor" id="conv">
-            <div class="container"> 
-                
+            <div class="container">
                 <div>
                     <h1>Vamos converter!</h1>
                     <p>
                         Teste o nosso conversor de números para diferentes contagens gratuitamente!
-                    </p>                    
+                    </p>
                 </div>
 
                 <div class="formulario">
-                    
+
                     <h1>Conversor de Bases</h1>
 
                     <div>
                         <input type="number" id="decimal" oninput="atualizarConversoes()" placeholder="Decimal:">
-                    <button onclick="copiarValor('decimal')">Copiar</button>
+                        <button onclick="copiarValor('decimal')">Copiar</button>
                     </div>
-                    
-                <div>
-                    <input type="text" id="binario" oninput="converterBinario()" placeholder="Binário:">
-                    <button onclick="copiarValor('binario')">Copiar</button>
-                </div>
 
-                <div>
-                    <input type="text" id="hexadecimal" oninput="converterHexadecimal()" placeholder="Hexadecimal:">
-                    <button onclick="copiarValor('hexadecimal')">Copiar</button>
+                    <div>
+                        <input type="text" id="binario" oninput="converterBinario()" placeholder="Binário:">
+                        <button onclick="copiarValor('binario')">Copiar</button>
+                    </div>
+
+                    <div>
+                        <input type="text" id="hexadecimal" oninput="converterHexadecimal()" placeholder="Hexadecimal:">
+                        <button onclick="copiarValor('hexadecimal')">Copiar</button>
+                    </div>
                 </div>
-               </div>
 
             </div>
         </section>
     </main>
     <footer>
-        <p>Desnvolvido por Bruno Vieira e João Vitorino</p>
+        <p><a href="https://github.com/JVVN-IFTM-UDI-C/iftm_SPI_ProjetoFundamentos" target="_blank">Projeto "Rumo ao Hexa-Bi-Decimal"</a> desenvolvido por:<br>- Bruno Vieira -<br>- João V. Vieira. -</p>
+        <div class="logoIFTM"></div>
     </footer>
 
 
