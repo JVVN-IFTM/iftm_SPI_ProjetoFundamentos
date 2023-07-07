@@ -276,7 +276,7 @@ footer p {
 }
 
 footer a:link,
-footer a:active {
+footer a:active, footer a:visited {
     color: #9dff8c;
     text-decoration: none;
 }
