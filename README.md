@@ -8,6 +8,6 @@ Tendo em mente que cada método de numeração conta com suas características p
 
 O projeto será mantido em um repositório público e será de código aberto, permitindo outros desenvolvedores a coletarem os códigos e aprimorá-los confome desejar.
 
-Link para a página do projeto: <ainda indisponível>
+Link para a página do projeto: https://jvvn-iftm-udi-c.github.io/iftm_SPI_ProjetoFundamentos/
 
 ### iftm_SPI_ProjetoFundamentos - Desenvolvido por João V. Vieira e Bruno Vieira para o time de fundamentos de Sistemas Para Internet do Instituto Federal do Triangulo Mineiro.
