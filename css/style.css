@@ -34,7 +34,7 @@ h1 {
 
 header {
     background-color: #024959;
-    background-image: url("./img/rumoAoFundo.PNG");
+    background-image: url("img/rumoAoFundo.png");
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -261,7 +261,7 @@ footer p {
 .logoIFTM {
     width: 70px;
     height: 70px;
-    background-image: url("./img/IFTMWhite.PNG");
+    background-image: url("img/IFTMWhite.PNG");
     background-position: center;
     background-size: contain;
     margin: auto;
@@ -270,7 +270,7 @@ footer p {
 }
 
 .logoIFTM:hover {
-    background-image: url("./img/IFTMColor.PNG");
+    background-image: url("img/IFTMColor.PNG");
     background-color: rgb(216, 255, 205);
     box-shadow: 0px 0px 10px rgb(216, 255, 205);
 }
